@@ -10,7 +10,7 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-If we have two Completely connected graphs with the same number of verticies then it doesn't matter how we map the graphs together we will always be able to map every vertice to every other vertice.
+If we have two Completely connected graphs with the same number of verticies then it doesn't matter how we map the graphs together using the connections provided we will always be able to map every vertice to every other vertice.
 
 Pt1:
 This portion of the proof tells us that two graphs having the same number of nodes atleast doesnt discount their ability to be Isomorphic.
