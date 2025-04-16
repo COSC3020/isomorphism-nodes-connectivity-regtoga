@@ -28,28 +28,7 @@ num_v_in_G2 = $G_2$.numVerticies()
 so we can understand that only when the number of verticies in both graphs are equal do we satisfy the one-to-one and onto part of the isomorphic graph definition. 
 
 Pt2:
-I will show an example:
-
-$G_1 = [
-    [1,0,1],
-    [0,1,1],
-    [1,1,0]
-]$
-
-$G_2 = [
-    [0,1,1],
-    [1,0,1],
-    [1,1,0]
-]$
-
-If there exists a mapping $V_1 \rightarrow V_2$:
-$f(1) = 2$,
-$f(2) = 1$,
-$f(3) = 3$,
-
-Then $(2,3) \in E_1$ and since $f(2) = 1$ and $f(3) = 3$, we get $(1,3) \in E_2$,
-
-also $(1,3) \in E_1$ and $f(1) = 2$, $f(3) = 3$, so $(2,3) \in E_2$.
+$G_1$ and $G_2$ are complete graphs, this means that every pair of verticies in $G_1$ is connected by an edge. so for any  $u,v \in V_1$, the edge $(u, v) \in E_1$ Since $f$ is bijective, f(u) and f(v) in $G_2$ are also connected by an edge. since this holdes for all pairs of verticies in $G_1$ we can infer that $G_2$ is also a complete graph.
 
 and so $G_1$ and $G_2$ are isomorphic because each node in both graphs are connected to every other node in the graphs.
 
